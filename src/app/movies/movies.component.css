@@ -1,0 +1,14 @@
+.close{
+    padding: 5px;
+    border-radius: 50%;
+}
+.close:hover{
+background-color: red;
+transition-duration: 1s;
+transition-property: background-color,box-shadow;
+cursor: pointer;
+box-shadow: 0 0 10px red;
+}
+li:hover{
+    cursor: pointer;
+}
